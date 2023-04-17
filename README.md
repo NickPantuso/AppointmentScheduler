@@ -9,6 +9,7 @@ All appointment dates shown are in your local time and all dates are recorded to
 EST time to ensure the appointments you schedule don't go outside of business hours (8AM-10PM). The report button on the home form will
 bring you to a new form where you can view the schedules for each contact, as well as some other general information
 about the appointments and customers.
+(Every log in attempt is recorded to a text file.)
 
 # What was learned?
 
