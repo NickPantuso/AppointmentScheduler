@@ -10,7 +10,7 @@ EST time to ensure the appointments you schedule don't go outside of business ho
 bring you to a new form where you can view the schedules for each contact, as well as some other general information
 about the appointments and customers. The program will create and write to a text file that contains all log in attempts, a sample text file is included in the repository named "login_activity.txt"
 
-NOTE: Allow some button clicks to take 3-4 seconds to execute. The free remote database I'm using is really slow, and I tried to make it as quick as I could. The database also times out after about 30 seconds, so the program has to constantly check for a connection, which takes away some performance. Executable also requires at least JRE version 1.6
+NOTE: Allow some button clicks to take 3-4 seconds to execute. The free remote database I'm using is really slow, and I tried to make it as quick as I could. The database also times out after about 30 seconds, so the program has to constantly check for a connection, which takes away some performance. Executable also requires at least JRE version 1.6. Windows may create a pop-up that tells you to not run the program, but the program is safe.
 
 UPDATE: Added C3P0 connection pooling to try and increase application speed, improved response of some buttons by changing when the progrom loaded FXML forms
 
