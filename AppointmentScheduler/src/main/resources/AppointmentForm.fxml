@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="group.scheduler.controller.AppointmentController">
+   <children>
+      <Label fx:id="apptTitle" layoutX="35.0" layoutY="35.0" text="Add Appointment">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="110.0" text="Appointment ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="150.0" text="Title">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="190.0" text="Description">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="350.0" text="End Date &amp; Time">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="contactBox" layoutX="202.0" layoutY="485.0" prefWidth="150.0" promptText="Contact" />
+      <TextField fx:id="apptIdTxt" disable="true" layoutX="202.0" layoutY="108.0" prefHeight="25.0" prefWidth="222.0" promptText="Auto - Generated">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="75.0" layoutY="230.0" text="Location">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="270.0" text="Type">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="310.0" text="Start Date &amp; Time">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="titleTxt" layoutX="202.0" layoutY="148.0" prefHeight="25.0" prefWidth="222.0" />
+      <TextField fx:id="descTxt" layoutX="202.0" layoutY="188.0" prefHeight="25.0" prefWidth="222.0" />
+      <TextField fx:id="locTxt" layoutX="202.0" layoutY="228.0" prefHeight="25.0" prefWidth="222.0" />
+      <TextField fx:id="typeTxt" layoutX="202.0" layoutY="268.0" prefHeight="25.0" prefWidth="222.0" />
+      <Button layoutX="75.0" layoutY="545.0" mnemonicParsing="false" onAction="#submitAppt" text="Submit" />
+      <Button layoutX="150.0" layoutY="545.0" mnemonicParsing="false" onAction="#openHomeForm" text="Cancel" />
+      <TextField fx:id="startYear" layoutX="238.0" layoutY="308.0" prefHeight="25.0" prefWidth="78.0" promptText="(YYYY)" />
+      <ComboBox fx:id="startMonth" layoutX="381.0" layoutY="308.0" prefHeight="25.0" prefWidth="78.0" promptText="Month" />
+      <ComboBox fx:id="startDay" layoutX="509.0" layoutY="308.0" prefHeight="25.0" prefWidth="71.0" promptText="Day" />
+      <ComboBox fx:id="startTime" layoutX="637.0" layoutY="308.0" prefHeight="25.0" prefWidth="71.0" promptText="Time" />
+      <TextField fx:id="endYear" layoutX="238.0" layoutY="348.0" prefHeight="25.0" prefWidth="78.0" promptText="(YYYY)" />
+      <ComboBox fx:id="endMonth" layoutX="381.0" layoutY="348.0" prefHeight="25.0" prefWidth="78.0" promptText="Month" />
+      <ComboBox fx:id="endDay" layoutX="509.0" layoutY="348.0" prefHeight="25.0" prefWidth="71.0" promptText="Day" />
+      <ComboBox fx:id="endTime" layoutX="637.0" layoutY="348.0" prefHeight="25.0" prefWidth="71.0" promptText="Time" />
+      <ComboBox fx:id="custBox" layoutX="202.0" layoutY="396.0" prefWidth="150.0" promptText="Customer ID" />
+      <ComboBox fx:id="userBox" layoutX="202.0" layoutY="440.0" prefWidth="150.0" promptText="User ID" />
+      <Label layoutX="75.0" layoutY="400.0" text="Customer ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="444.0" text="User ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="489.0" text="Contact">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="333.0" layoutY="312.0" text="Month:" />
+      <Label layoutX="477.0" layoutY="312.0" text="Day:" />
+      <Label layoutX="598.0" layoutY="312.0" text="Time:" />
+      <Label layoutX="333.0" layoutY="352.0" text="Month:" />
+      <Label layoutX="477.0" layoutY="352.0" text="Day:" />
+      <Label layoutX="598.0" layoutY="352.0" text="Time:" />
+      <Label layoutX="202.0" layoutY="312.0" text="Year:" />
+      <Label layoutX="202.0" layoutY="352.0" text="Year:" />
+      <Label fx:id="errorLbl" layoutX="75.0" layoutY="595.0" textFill="RED" />
+   </children>
+</AnchorPane>
