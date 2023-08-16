@@ -12,7 +12,7 @@ about the appointments and customers. The program will create and write to a tex
 
 NOTE: Allow some button clicks to take 3-4 seconds to execute. The free remote database I'm using is really slow, and I tried to make it as quick as I could. The database also times out after about 30 seconds, so the program has to constantly check for a connection, which takes away some performance. Executable also requires at least JRE version 1.6. Windows may create a pop-up that tells you to not run the program, but the program is safe.
 
-UPDATE: Added the C3P0 library for connection pooling to try and increase application speed, improved response of some buttons by changing when the progrom loaded FXML forms
+UPDATE: Added the C3P0 library for connection pooling to try and increase application speed, improved response of some buttons by changing when the program loaded FXML forms.
 
 # What was learned?
 
