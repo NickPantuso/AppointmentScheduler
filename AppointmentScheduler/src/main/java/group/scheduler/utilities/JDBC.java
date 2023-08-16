@@ -7,7 +7,7 @@ import com.mchange.v2.c3p0.*;
 
 /**
  * Creates connection to the database.
- * @author WGU
+ * @author Nick Pantuso
  */
 public abstract class JDBC implements Connection{
 
