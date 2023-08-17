@@ -80,7 +80,7 @@ public class HomeController implements Initializable {
 
     /**
      * Opens the 'Add' CustomerForm.
-     * @param event
+     * @param event the button click
      * @throws IOException
      */
     @FXML protected void openAddCustomerForm(ActionEvent event) throws IOException {
@@ -116,7 +116,7 @@ public class HomeController implements Initializable {
 
     /**
      * Opens the 'Add' AppointmentForm.
-     * @param event
+     * @param event the button click
      * @throws IOException
      */
     @FXML protected void openAddApptForm(ActionEvent event) throws IOException {
