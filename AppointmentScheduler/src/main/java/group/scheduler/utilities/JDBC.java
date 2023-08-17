@@ -13,12 +13,12 @@ public abstract class JDBC implements Connection{
 
     private static final String protocol = "jdbc";
     private static final String vendor = ":mysql:";
-    private static final String location = "//sql.freedb.tech/";
-    private static final String databaseName = "freedb_clientschedule";
+    private static final String location; //location goes here
+    private static final String databaseName; //db name goes here
     private static final String jdbcUrl = protocol + vendor + location + databaseName + "?connectionTimeZone = SERVER"; // LOCAL
-    private static final String driver = "com.mysql.cj.jdbc.Driver"; // Driver reference
-    private static final String userName = "freedb_scheduler"; // Username
-    private static String password = "Y!Z2kPH6qxByY%c"; // Password
+    private static final String driver = "com.mysql.cj.jdbc.Driver";
+    private static final String userName; //username goes here
+    private static String password; //password goes here
     public static ComboPooledDataSource cpds = new ComboPooledDataSource();
     public static Connection connection;  // Connection Interface
 
